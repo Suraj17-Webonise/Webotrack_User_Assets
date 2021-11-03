@@ -1,0 +1,9 @@
+<h1><%= @proasset.name %></h1>
+<%= link_to 'Edit', edit_proasset_path(@proasset) %>
+<p><b>Description:</b> <%= @proasset.description %></p>
+<p><b>Storage:</b> <%= @proasset.storage %></p>
+
+<h2>Name of User : <%= link_to @proasset.user.to_s, user_path(@proasset.user) %></h2>
+
+<p><%= link_to 'Delete', @proasset, method: 'delete', data: { confirm: 'Are you sure?' }%></p>
+<p><%= link_to 'Go back to all assets', proassets_path %></p>
