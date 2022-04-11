@@ -1,24 +1,14 @@
-# README
+# Assignment :
+Create gem for Asset Management named as WeboTrack which have following Feature
+1. Able to add asset
+2. Able to add user
+3. Able to assign asset to user
+4. Able to check asset assign to Particular user.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Description :
+1. Bundler and Gem Management
+2. Rubygems Package manager. 
+3. Creating and publishing a gem 
+4. How to create [Rdoc and Ri] for gems.
+5. Version management
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
